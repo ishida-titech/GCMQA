@@ -1,5 +1,11 @@
 # GCMQA
 
+GCMQA is a single-model model quality assessment methodthat assesses local structure quality based on interaction among residues by using graph convolutionneural networks. 
+We defined a graph of a protein structure whose node represents a residue and edgerepresents the interaction between residues. 
+We trained a graph convolutional neural network for the graphto output the quality of local structure of a residue. 
+We evaluated the performance of the proposed methodwith state-of-the-art assessment methods using CASP11 and CASP12 datasets. 
+Our results showed the proposed method was a significant improvement compared to previous methods.
+
 ## Requirement
 - python==3.6
 - Chainer==5.2.0
